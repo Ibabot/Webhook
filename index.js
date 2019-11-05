@@ -39,7 +39,7 @@ app.post('/webhooks/facebook/webhook', (req, res) => {
 app.get('/webhooks/facebook/webhook', (req, res) => {
 
   // Your verify token. Should be a random string.
-  let VERIFY_TOKEN = "<YOUR_VERIFY_TOKEN>"
+  let VERIFY_TOKEN = "hakunamatata"
     
   // Parse the query params
   let mode = req.query['hub.mode'];
